@@ -6,7 +6,7 @@ namespace DetectingMemoryProblemsInDotNet
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var sql = new SqlCommand("select * from PointsOfInterest;");
             Console.WriteLine("Press any key to know the first point of interest name. Enter \"x\" to exit.");
@@ -18,7 +18,7 @@ namespace DetectingMemoryProblemsInDotNet
                     break;
                 }
 
-                System.Console.WriteLine(GetNameOfPointOfInterest(sql));
+                Console.WriteLine(GetNameOfPointOfInterest(sql));
             }
         }
 
