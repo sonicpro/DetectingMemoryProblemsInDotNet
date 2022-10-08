@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectingMemoryProblemsInDotNet", "DetectingMemoryProblemsInDotNet\DetectingMemoryProblemsInDotNet.csproj", "{1C5CA2E3-159F-4E24-B866-1E589BE0E25D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C5CA2E3-159F-4E24-B866-1E589BE0E25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5CA2E3-159F-4E24-B866-1E589BE0E25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5CA2E3-159F-4E24-B866-1E589BE0E25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5CA2E3-159F-4E24-B866-1E589BE0E25D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94E3FEC5-F0AB-484A-A878-C8E96B689A62}
+	EndGlobalSection
+EndGlobal
